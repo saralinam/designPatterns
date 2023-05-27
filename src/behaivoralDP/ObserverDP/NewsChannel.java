@@ -11,7 +11,7 @@ public class NewsChannel implements Channel{
 
     @Override
     public void update(String news) {
-        newsList.add(news); // all news is added to the list
+        newsList.add(news); // all news is added to this list
     }
 
     @Override

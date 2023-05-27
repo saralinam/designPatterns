@@ -1,7 +1,7 @@
 package creationalDP.abstract_factroyDP;
 
 public class ColorFactory extends AbstractFactory{
-    @Override
+    @Override  //overriding from abstract class
     Color getColor(String color) {
         if(color==null){
             return null;
